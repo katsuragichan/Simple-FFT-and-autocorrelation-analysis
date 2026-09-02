@@ -36,7 +36,7 @@ def create_fft_plot(input_path: Path, output_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    input_path = BASE_DIR / "data2.csv"
-    output_path = BASE_DIR / "data2_fft.png"
+    input_path = BASE_DIR / "data.csv"
+    output_path = BASE_DIR / "data_fft.png"
     create_fft_plot(input_path, output_path)
     print(f"saved: {output_path}")

@@ -33,8 +33,7 @@ def create_autocorrelation_plot(input_path: Path, output_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    for csv_name in ("data.csv", "data2.csv"):
-        input_path = BASE_DIR / csv_name
-        output_path = BASE_DIR / f"{input_path.stem}_acf.png"
-        create_autocorrelation_plot(input_path, output_path)
-        print(f"saved: {output_path}")
+    input_path = BASE_DIR / "data.csv"
+    output_path = BASE_DIR / "data_acf.png"
+    create_autocorrelation_plot(input_path, output_path)
+    print(f"saved: {output_path}")

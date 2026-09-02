@@ -18,7 +18,7 @@ FFT スペクトルを作成します。
 python FFT.py
 ```
 
-`data2_fft.png` が作成されます。
+`data_fft.png` が作成されます。
 
 自己相関グラフを作成します。
 
@@ -26,13 +26,13 @@ python FFT.py
 python test.py
 ```
 
-`data_acf.png` と `data2_acf.png` が作成されます。生成された PNG は Git 管理対象外です。
+`data_acf.png` が作成されます。生成された PNG は Git 管理対象外です。
 
 ## Input format
 
 CSV はヘッダーなしの 2 列構成を想定しています。
 
-`data.csv` と `data2.csv` は個人データのため、このリポジトリには含めていません。実行時は同じディレクトリに用意してください。
+`data.csv` は個人データのため、このリポジトリには含めていません。実行時は同じディレクトリに用意してください。
 
 - 1 列目: 時刻またはフレーム番号
 - 2 列目: 信号値
